@@ -37,12 +37,15 @@ while true; do
         exit 0
     fi
     clear
+
     weather "$city"
     read -rsp $'Press Enter to continue...\n' -n 1 key
+
     clear
 
     if [[ $key == "q" ]]; then
         clear
         exit 0
     fi
+
 done
