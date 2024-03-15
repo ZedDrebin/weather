@@ -1,7 +1,7 @@
 #! /bin/bash
 # Weather bash CLI script fetches weather from wttr.in
-# Usage: Enter a city at the commandlne. This will become the default city.
-#               Press Enter again to enter a new city. Press q to quit.
+# Usage: Enter a city on the commandlne. This will become the default city.
+#               Press q to Quit or any other key to enter a new city.
 # Get local weather in terminal
 #
 # Function to fetch weather information
@@ -18,7 +18,7 @@ default_city=""
 if [ "$#" -eq 1 ]; then
     default_city="$1"
     weather "$default_city"
-    read -rsp $'Press Enter to continue...\n' -n 1 key
+    read -rsp $'Press \'q\' to Quit. Any Other Key to Continue...\n' -n 1 key
     clear
 fi
 
@@ -39,7 +39,7 @@ while true; do
     clear
 
     weather "$city"
-    read -rsp $'Press Enter to continue...\n' -n 1 key
+    read -rsp $'Press \'q\' to Quit. Press Any Other Key to Continue...\n' -n 1 key
 
     clear
 
