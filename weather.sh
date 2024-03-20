@@ -13,6 +13,7 @@ weather() {
 	[ -z "$1" ] && echo "Usage: $0 <city>" && curl wttr.in/:help | less && exit 1
 	curl wttr.in/"$location"
 }
+
 #Function to clear screan and exit nicely
 cleanup() {
 	clear
