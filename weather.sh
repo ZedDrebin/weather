@@ -2,6 +2,7 @@
 # Get local weather in terminal
 # bash CLI Weather script fetches weather from wttr.in
 # Usage: Run weather.sh or run with a city on the commandlne. Aguments will become the default city.
+#	 Press Enter twice to refresh the weather forcast!
 #        Press q to Quit or any other key to enter a new city.
 #
 # Function to fetch weather information
