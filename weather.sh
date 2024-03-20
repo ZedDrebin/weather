@@ -41,9 +41,7 @@ while true; do
 		fi
 	fi
 
-	if [[ $city == "q" ]]; then
-
-		cleanup
+	if [[ $city == "q" ]]; then cleanup
 
 	fi
 	clear
@@ -53,9 +51,8 @@ while true; do
 
 	clear
 
-	if [[ $key == "q" ]]; then
-		clear
-		cleanup
+	if [[ $key == "q" ]]; then cleanup
+
 	fi
 
 done
