@@ -4,6 +4,7 @@
 # Usage: Run weather.sh or run with a city on the commandlne. Aguments will become the default city.
 #	 Press Enter twice to refresh the weather forcast!
 #        Press q to Quit or any other key to enter a new city.
+#	 To make the file executable: chmod +x weather.sh 
 # Zed (irc.2600.net)
 #
 # Function to fetch weather information
