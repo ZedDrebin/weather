@@ -27,7 +27,6 @@ if [ "$#" -eq 1 ]; then
 	if [[ $key = q ]];then cleanup
 
 	fi
-
 fi
 
 while true; do
@@ -44,6 +43,7 @@ while true; do
 	if [[ $city == "q" ]]; then cleanup
 
 	fi
+
 	clear
 
 	weather "$city"
